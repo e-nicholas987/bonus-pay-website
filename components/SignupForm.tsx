@@ -12,7 +12,7 @@ export default function SignupForm() {
             <input
               className="input h-fit w-full rounded-full p-3 placeholder:text-xs sm:rounded-none sm:rounded-l-full md:w-[22.938rem]"
               type="email"
-              placeholder="johnbola@gmail.com"
+              placeholder="johnbola@yahoo.com"
             />
             <button
               type="submit"
