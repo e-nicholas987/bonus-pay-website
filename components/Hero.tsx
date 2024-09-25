@@ -10,7 +10,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="container flex flex-col items-center gap-5 py-20 lg:py-24 xl:grid xl:grid-cols-2"
+      className="container flex flex-col items-center gap-5 py-14 lg:py-24 xl:grid xl:grid-cols-2"
     >
       <div className="flex max-w-[25rem] flex-col items-center gap-4 lg:max-w-[35.125rem]">
         <h1 className="text-[3.5rem] font-semibold leading-[3.5rem] tracking-[-0.25rem] lg:text-[5.25rem] lg:leading-[5.28125rem] lg:tracking-[-0.3125rem]">
@@ -38,21 +38,19 @@ export default function Hero() {
         </a>
         <ComingSoonButton />
       </div>
-      <div className="relative">
-        <div className="absolute -inset-1 bg-white mix-blend-color-burn" />
-        <div className="relative overflow-x-clip">
-          <Image
-            src={HeroBg}
-            className="h-[23.67256rem] w-[23.67256rem] lg:h-[34.51581rem] lg:w-[38.74219rem]"
-            alt="Blue BackGround"
-          />
-          <div className="absolute inset-0 bg-[#0053B4] mix-blend-color-burn" />
-          <Image
-            src={FemaleHandHoldingIphone}
-            alt="Female Hand Holding an Iphone 14"
-            className="absolute left-14 top-4 h-[27.97275rem] w-full max-w-[19.67963rem] lg:left-24 lg:top-8 lg:h-[45.98788rem] lg:max-w-[32.35375rem]"
-          />
-        </div>
+
+      <div className="relative overflow-x-clip">
+        <Image
+          src={HeroBg}
+          className="h-[23.67256rem] w-[23.67256rem] bg-white mix-blend-color-burn lg:h-[34.51581rem] lg:w-[38.74219rem]"
+          alt="Blue BackGround"
+        />
+        <div className="absolute inset-0 bg-[#0053B4] mix-blend-color-burn" />
+        <Image
+          src={FemaleHandHoldingIphone}
+          alt="Female Hand Holding an Iphone 14"
+          className="absolute left-14 top-4 h-[27.97275rem] w-full max-w-[19.67963rem] lg:left-24 lg:top-8 lg:h-[45.98788rem] lg:max-w-[32.35375rem]"
+        />
       </div>
     </section>
   );
