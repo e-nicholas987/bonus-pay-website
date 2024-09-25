@@ -9,8 +9,20 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#00326D",
+        grey3: "#626D7D",
+        grey2: "#C2C4CF",
+        "light-blue": "#F3F8FF",
+      },
+      fontFamily: {
+        lexend: ["var(--font-lexend)"],
+      },
+    },
+    container: {
+      center: true,
+      padding: "24px",
+      screens: {
+        "2xl": "1241px",
       },
     },
   },
