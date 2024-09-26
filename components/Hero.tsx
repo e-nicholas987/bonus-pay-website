@@ -39,13 +39,12 @@ export default function Hero() {
         <ComingSoonButton />
       </div>
 
-      <div className="relative overflow-x-clip bg-white">
+      <div className="relative overflow-x-clip">
         <Image
           src={HeroBg}
-          className="h-[23.67256rem] w-[23.67256rem] lg:h-[34.51581rem] lg:w-[38.74219rem]"
+          className="h-[23.67256rem] rounded-[1.2rem] w-[23.67256rem] lg:h-[34.51581rem] lg:w-[38.74219rem]"
           alt="Blue BackGround"
         />
-        <div className="absolute inset-0 bg-[#0053B4] mix-blend-color-burn" />
         <Image
           src={FemaleHandHoldingIphone}
           alt="Female Hand Holding an Iphone 14"
