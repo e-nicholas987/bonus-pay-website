@@ -1,6 +1,6 @@
 import React, { ReactNode } from "react";
 import Logo from "./Logo";
-import paths from "@/lib/constants";
+import paths from "@/constants/paths";
 import { FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
@@ -67,7 +67,7 @@ export default function Footer() {
             target="_blank"
             href={link.href}
             rel="noopener noreferrer"
-            className="inline-block rounded-full p-2 text-grey3 transition-colors duration-300 hover:bg-gray-200 hover:text-primary"
+            className="inline-block rounded-full p-2 text-grey3 transition-colors duration-300 hover:bg-gray-200 hover:text-primary md:p-2.5"
           >
             {link.icon}
           </a>

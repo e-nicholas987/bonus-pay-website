@@ -1,4 +1,4 @@
-import paths from "@/lib/constants";
+import paths from "@/constants/paths";
 import FaqCard from "./FaqCard";
 import { ReactNode } from "react";
 

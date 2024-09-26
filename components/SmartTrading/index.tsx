@@ -1,4 +1,4 @@
-import paths from "@/lib/constants";
+import paths from "@/constants/paths";
 import BonuspayAdvert from "./BonuspayAdvert";
 
 export default function SmartTrading() {

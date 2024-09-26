@@ -1,5 +1,5 @@
 import NavLinks from "./DesktopNavLinks";
-import paths from "@/lib/constants";
+import paths from "@/constants/paths";
 import { buttonVariants } from "../Buttons/Button";
 import MobileMenuButton from "./MobileMenuButton";
 import Logo from "../Logo";

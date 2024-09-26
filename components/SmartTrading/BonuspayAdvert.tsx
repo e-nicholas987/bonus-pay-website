@@ -47,6 +47,7 @@ export default function BonuspayAdvert() {
         controls
         loop
         muted
+        playsInline
         src="https://bonuspay.io/wp-content/uploads/2024/05/Bonus-Pay-Video-v2.mp4"
         className="relative h-full w-full object-cover"
       >

@@ -1,4 +1,4 @@
-import paths from "@/lib/constants";
+import paths from "@/constants/paths";
 import Link from "next/link";
 
 interface DesktopNavLink {
@@ -9,7 +9,7 @@ interface DesktopNavLink {
 const navLinks: DesktopNavLink[] = [
   {
     label: "Home",
-    href: paths.hero,
+    href: paths.home,
   },
   {
     label: "About Us",

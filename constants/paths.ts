@@ -1,7 +1,7 @@
 const paths = {
+  home: "/",
   website: "https://www.bonuspay.io",
   getStarted: "https://app.bonuspay.io",
-  hero: "/#hero",
   aboutUs: "/#smart-trading",
   faqs: "/#faqs",
   contactUs: "/#contact",

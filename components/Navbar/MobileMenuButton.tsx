@@ -1,6 +1,6 @@
 "use client";
 
-import paths from "@/lib/constants";
+import paths from "@/constants/paths";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { useState } from "react";
@@ -16,7 +16,7 @@ interface MobileNavLink {
 }
 
 const mobileNavLinks: MobileNavLink[] = [
-  { label: "Home", href: paths.hero },
+  { label: "Home", href: paths.home },
   { label: "About us", href: paths.aboutUs },
   { label: "FAQs", href: paths.faqs },
   { label: "Contact us", href: paths.contactUs },
@@ -44,9 +44,12 @@ export default function MobileMenuButton() {
       </button>
       <AnimatePresence>
         {showMenu && (
-          <div
+          <motion.div
             role="dialog"
             onClick={() => setShowMenu(false)}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
             className="fixed inset-x-0 bottom-0 top-16 overflow-hidden bg-[rgb(0,0,0,0.5)] lg:hidden"
           >
             <motion.div
@@ -78,7 +81,7 @@ export default function MobileMenuButton() {
                 Login
               </Button>
             </motion.div>
-          </div>
+          </motion.div>
         )}
       </AnimatePresence>
     </>

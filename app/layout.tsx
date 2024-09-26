@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { Jost, Lexend } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
-import paths from "@/lib/constants";
+import paths from "@/constants/paths";
+import Footer from "@/components/Footer";
 
 const jost = Jost({ subsets: ["latin"] });
 const lexend = Lexend({ subsets: ["latin"], variable: "--font-lexend" });
@@ -43,6 +44,7 @@ export default function RootLayout({
       <body className={`${jost.className} ${lexend.variable} antialiased`}>
         <Navbar />
         <main className="pt-16 lg:pt-20">{children}</main>
+        <Footer />
       </body>
     </html>
   );

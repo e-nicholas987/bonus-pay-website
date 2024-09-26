@@ -1,8 +1,8 @@
 import Image from "next/image";
-import HeroBg from "@/assets/hero-bg.png";
-import FemaleHandHoldingIphone from "@/assets/female-hand-holding-iphone.png";
-import GreenStars from "@/assets/green-stars.svg";
-import paths from "@/lib/constants";
+import HeroBg from "/public/assets/hero-bg.png";
+import FemaleHandHoldingIphone from "/public/assets/female-hand-holding-iphone.png";
+import GreenStars from "/public/assets/green-stars.svg";
+import paths from "@/constants/paths";
 import { buttonVariants } from "./Buttons/Button";
 import ComingSoonButton from "./Buttons/ComingSoonButton";
 

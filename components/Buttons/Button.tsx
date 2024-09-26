@@ -12,7 +12,7 @@ const buttonVariants = cva(
         black: "bg-[#000000] text-white",
       },
       size: {
-        lg: "h-16 text-[1.188rem]",
+        lg: "h-14 lg:h-16 text-[1.188rem]",
         md: "p-2.5 text-sm leading-6",
       },
     },
@@ -20,7 +20,7 @@ const buttonVariants = cva(
       variant: "primary",
       size: "lg",
     },
-  }
+  },
 );
 
 interface ButtonProps
