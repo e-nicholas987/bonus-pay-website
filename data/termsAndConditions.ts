@@ -7,23 +7,24 @@ interface Term {
 
 export const terms: Term[] = [
   {
-    title: "Introduction",
+    title: "Acceptance of Terms",
     content: [
-      "By accessing and using our platform, you agree to comply with these terms and conditions. Please read them carefully before engaging in any buying, selling, or swapping activities on our platform.",
+      "By using our platform, you agree to comply with and be legally bound by these terms in their entirety. If you do not agree, please refrain from using our platform. By entering into this agreement, you acknowledge receipt of Bonus Innovation Technology Limited Privacy Statement and agree to be bound by it.",
     ],
   },
   {
     title: "Account Registration and Security",
     content: [
-      "a. You must provide accurate and up-to-date information during the registration process.",
-      "b. You are responsible for maintaining the confidentiality of your account credentials and ensuring the security of your account.",
+      "By using our platform, you agree to comply with and be legally bound by these terms in their entirety. If you do not agree, please refrain from using our platform. By entering into this agreement, you acknowledge receipt of Bonus Innovation Technology Limited Privacy Statement and agree to be bound by it.",
     ],
   },
   {
     title: "Buying and Selling",
     content: [
-      "a. All transactions are final. Ensure you review and confirm all details before completing any buy or sell orders.",
-      "b. Prices and fees are subject to change without notice. Check the latest information before initiating transactions",
+      "a. To access our platform, users are required to sign up by creating an account and filling in the required details in accordance with the requirements of the platform (a “User Account”).",
+      "b. To access our platform, users are required to sign up by creating an account and filling in the required details in accordance with the requirements of the platform (a “User Account”).",
+      "c. By creating a User Account, you authorize Bonuspay to use your information to make enquiries or to verify your identity either directly or through third parties, in order to protect our platform against fraud, money laundering or illegal activities. We reserve the right to terminate your account if we are not satisfied with the outcome of the enquiries.",
+      "d. You are responsible for maintaining confidentiality and safeguarding your account credentials. Do not share your log in details or password or other security related information or permit access to your account to third parties. You must notify us immediately if you suspect any unauthorized access to your account. Bons Tech will not be responsible for any breach of your account as a result of your failure to protect your account credentials"
     ],
   },
   {
