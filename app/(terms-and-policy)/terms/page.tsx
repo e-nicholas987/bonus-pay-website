@@ -1,4 +1,6 @@
 import LegalHeader from "@/components/LegalHeader";
+import paths from "@/constants/paths";
+import Link from "next/link";
 
 export default function PrivacyPolicy() {
   return (
@@ -333,12 +335,17 @@ export default function PrivacyPolicy() {
           </li>
           <li>
             <span className="font-bold">Privacy</span>
-            <span>
+            <p>
               We value your privacy and take appropriate measures to protect
               your personal information. For more details on how we collect,
               use, and safeguard your data, please refer to our{" "}
-              <b>Privacy Policy.</b>
-            </span>
+              <Link
+                href={paths.privacyPolicy}
+                className="text-primaryBlue underline"
+              >
+                Privacy Policy.
+              </Link>
+            </p>
           </li>
           <li>
             <span className="font-bold">Dispute Resolution</span>
@@ -716,7 +723,7 @@ export default function PrivacyPolicy() {
                 </a>
               </li>
               <li>
-                1.10 Any and all communications from Bonupay.com may be provided
+                1.10 Any and all communications from Bonuspay may be provided
                 to you via electronic mail at the address you provided when
                 accessing the Services. Bonuspay shall not be responsible for
                 any harm you may suffer as a result of your failure to receive
