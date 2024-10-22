@@ -1,6 +1,5 @@
 import LegalHeader from "@/components/LegalHeader";
 import paths from "@/constants/paths";
-import { privacyPolicy } from "@/data/privacyPolicy";
 import Link from "next/link";
 
 export default function PrivacyPolicy() {
@@ -431,7 +430,9 @@ export default function PrivacyPolicy() {
             </p>
           </li>
           <li>
-            <h4 className="font-bold underline">DATA RETENTION</h4>
+            <h4 className="font-bold underline">
+              SECURITY AND TRANSFER OF INFORMATION
+            </h4>
             <p>
               The services require by their very nature that your information
               may be transferred to other users and third parties across the

@@ -1,5 +1,4 @@
 import LegalHeader from "@/components/LegalHeader";
-import paths from "@/constants/paths";
 
 export default function PrivacyPolicy() {
   return (
@@ -719,9 +718,9 @@ export default function PrivacyPolicy() {
               <li>
                 1.10 Any and all communications from Bonupay.com may be provided
                 to you via electronic mail at the address you provided when
-                accessing the Services. Bonuspay shall not be responsible
-                for any harm you may suffer as a result of your failure to
-                receive any notice provided to you in connection with this User
+                accessing the Services. Bonuspay shall not be responsible for
+                any harm you may suffer as a result of your failure to receive
+                any notice provided to you in connection with this User
                 Agreement or your use of Services so long as such notice is
                 provided to such email address.
               </li>
