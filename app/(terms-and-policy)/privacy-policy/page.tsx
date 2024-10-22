@@ -568,7 +568,7 @@ export default function PrivacyPolicy() {
             <p>
               If you have any questions or concerns about your privacy or data
               protection, please contact our Data Protection Officer at
-              dataprotection@xxxx.com.ng or by writing to us at:
+              dataprotection@bonuspay.io or by writing to us at:
             </p>
           </li>
           <li>
